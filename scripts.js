@@ -1,0 +1,7 @@
+/*
+ * FRONT CONTROLLER [jQuery]
+ * 
+ */
+$(function () {
+  
+});

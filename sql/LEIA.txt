@@ -1,0 +1,65 @@
+########################################
+## APLICAÇÃO DEVERÁ CONTROLAR DÍVIDAS ##
+########################################
+
+
+************ BANCO DE DADOS ************
+*************** (MYSQL) ****************
+*CONSIDERAR MODELAGEM
+	- UM DEVEDOR PODERÁ TER MAIS DE UMA DÍVIDA
+	- UM DEVEDOR PODERÁ TER MAIS DE UM ENDEREÇO
+
+- TABELA DE DEVEDORES (OK)
+	- NOME[VARCHAR] 
+	- CPF/CNPJ[INT]
+	- DATA DE NASCIMENTO[DATE])
+
+- TABELA DE ENDEREÇOS (OK)
+	- ENDEREÇO[VARCHAR]
+
+- TABELA DE TÍTULOS/DÍVIDAS (OK)
+	- DESCRIÇÃO[VARCHAR]
+	- VALOR[FLOAT]
+	- DATA DE VENCIMENTO[DATE]
+	- UPDATED[TIMESTAMP]
+
+
+
+
+************ CLASSES EM PHP ************
+*************** (PHP OO) ****************
+
+PDO (SINGLETON)
+	- CLASSE DATABASE (OK)
+
+CRUD (ENTIDADES)
+ 	- CLASSE DEVEDOR (OK)
+    	- CLASSE ENDEREÇO (OK)
+	- CLASSE TÍTULO (OK)
+    	
+VIEW
+	HTML/CSS (OK)
+		
+		
+************ REGRAS **************
+- APLICAÇÃO DEVERÁ SER CROSS-BROWSER (OK)
+- NÃO UTILIZAR FRAMEWORK (OK)
+- PERMITIDO BOOTSTRAP (OK)
+
+
+************* BÔNUS **************
+- DASHBOARD COM INDICADORES APROPRIADOS
+- TESTE UNITÁRIO
+
+
+FAZER ESTIMATIVA E RESPONDE E-MAIL (OK)
+FAZE COMMITS NO GIT (PENDENTE)
+ENVIAR URL DO REPOSITÓRIO: https://github.com/MadrugaDev/smartteamrh.git
+
+
+DISPONIBILIZAR APLICAÇÃO PARA TESTES (OK)
+
+
+
+
+
